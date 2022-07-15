@@ -48,10 +48,13 @@ const Index = ({ latestPosts }: Props) => {
           <div className="container-custom justify-center text-center align-middle flex flex-col-reverse sm:flex-row">
             <div>
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight">
-                <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change">
-                Hello, World👋
+                <br className="block md:hidden" />
+                <span className="relative">
+                  <span className="h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
+                    Hello, World <span className="text-3xl md:text-5xl">👋</span>
+                  </span>
+                  <span className="{`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-white w-full animate-type will-change`}"></span>
                 </span>
-                <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change"></span>
               </h1>
               <p className="mt-4 prose">
                 Selamat datang di blog pribadi saya, semoga ada yang bisa Anda ambil dari sini.{' '}
@@ -60,8 +63,7 @@ const Index = ({ latestPosts }: Props) => {
                 <Link href={'/about'} passHref={true}>
                   <a className="underline cursor-pointer">Tentang Saya.</a>
                 </Link>
-                {/* <br/> */}
-                {' '}Senang apabila dihubungi untuk pekerjaan melalui{' '}
+                {/* <br/> */} Senang apabila dihubungi untuk pekerjaan melalui{' '}
                 <ExternalLink href="mailto:dhoheiri@gmail.com"> pesan.</ExternalLink>{' '}
               </p>
             </div>
