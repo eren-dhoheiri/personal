@@ -12,9 +12,9 @@ export const AboutMeSiteTitle = 'Eren Dhoheiri - Tentang Saya';
 export const AboutMeSiteDescription = 'Siapa saya? Semua hal saya jelaskan disini';
 export const AboutMeSiteUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/about`;
 export const AboutMeContent = `
-  Eren Dhoheiri, 25 tahun, lahir dan besar dari keluarga sederhana, hanya berharap bermanfaat bagi sesama.
+  Eren Dhoheiri, 25 tahun, lahir dan besar dari keluarga sederhana, punya cita-cita jadi bermanfaat bagi sesama.
   Bekerja sebagai pengembang piranti lunak di start-up aquaculture. Saat ini tinggal di Tangerang (Indonesia), dan berharap bisa menjadi pengembara digital suatu saat nanti.
-  Terbiasa menggunakan Javascript/Typescript untuk pengembangkan aplikasi , namun masih antusias untuk belajar bahasa pemrograman lainnya, kerangka kerja, dan lainnya. Tertarik dengan isu yang berkaitan dengan kemanuasiaan, politik, filosofi dan teknologi.
+  Terbiasa menggunakan Javascript/Typescript untuk pengembangkan aplikasi , namun masih antusias untuk belajar bahasa pemrograman lainnya, kerangka kerja lainnya, dan hal-hal lainnya. Tertarik dengan isu yang berkaitan dengan kemanuasiaan, filosofi dan teknologi.
 `;
 
 export const CompaniesLinks = [
